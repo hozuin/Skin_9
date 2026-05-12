@@ -1,0 +1,54 @@
+{
+  "colorfit": {
+    "ita_l1_max": 16.14,
+    "strength": 0.55,
+    "reference_non_normal_train": {
+      "ita": {
+        "min": -80.456,
+        "p05": 1.814,
+        "median": 21.760,
+        "p95": 53.261,
+        "max": 74.588
+      },
+      "L": {
+        "min": 32.157,
+        "p05": 50.588,
+        "median": 58.824,
+        "p95": 68.627,
+        "max": 77.255
+      },
+      "a": {
+        "min": 2.0,
+        "p05": 6.0,
+        "median": 13.0,
+        "p95": 20.0,
+        "max": 32.0
+      },
+      "b": {
+        "min": 3.0,
+        "p05": 10.0,
+        "median": 21.0,
+        "p95": 31.0,
+        "max": 41.0
+      }
+    },
+    "delta_limits": {
+      "L": { "min": 0.0, "max": 8.0 },
+      "a": { "max": 3.0 },
+      "b": { "max": 6.0 }
+    },
+    "skin_mask": {
+      "hsv_s_min": 18,
+      "hsv_v_min": 35,
+      "hsv_v_max": 248,
+      "rgb_spread_min": 10,
+      "border_px": 8,
+      "fallback_v_min": 35,
+      "fallback_v_max": 245,
+      "min_ratio": 0.02,
+      "fallback_ratio": 0.04
+    },
+    "soft_alpha_blur_kernel": 61,
+    "method": "skin-mask LAB median shift toward non-normal median, with per-channel delta limits"
+  }
+}

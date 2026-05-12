@@ -1,3 +1,10 @@
+# macOS
+.DS_Store
+
+# Model weights
+training/weights_pool/
+*.pth
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
